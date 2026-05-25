@@ -80,6 +80,16 @@ h6 {
   color: var(--primary-red) !important;
 }
 
+.nav-logo{
+  width: 150px;
+  height: auto;
+}
+
+.footer-nav{
+  width: 190px;
+  height: auto;
+}
+
 .btn-primary-custom {
   background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
   color: var(--white);

@@ -3,7 +3,9 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
-            <h4 class="text-white fw-bold mb-3" style="font-family: 'Outfit';">AIFAP<span class="text-red">.</span></h4>
+            <h4 class="text-white fw-bold mb-3 bg-white rounded-1 px-2 py-4" style="font-family: 'Outfit'; width: fit-content;">
+                <img src="{{ asset('/assets/images/logo.png') }}" class="footer-nav" />
+            </h4>
             <p class="pe-lg-4" style="font-size: 0.95rem;">AIFAP is committed to Build Competent Finance & Accounting Professionals for a Changing Business World.</p>
             <div class="social-icons mt-4">
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>

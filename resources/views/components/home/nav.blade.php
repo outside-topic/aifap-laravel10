@@ -1,7 +1,10 @@
 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="/">AIFAP<span>.</span></a>
+        <a class="navbar-brand" href="/">
+            <img src="{{ asset('/assets/images/logo.png') }}" class="nav-logo"
+             />
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
