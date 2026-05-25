@@ -270,7 +270,7 @@
   }
 </style>
 
-<h2 class="sr-only">AIFAP membership application email template showing applicant personal details, membership category, qualification, and experience</h2>
+
 
 <div class="met-outer">
   <div class="met-card">
