@@ -7,11 +7,11 @@
                 <img src="{{ asset('/assets/images/logo.png') }}" class="footer-nav" />
             </h4>
             <p class="pe-lg-4" style="font-size: 0.95rem;">AIFAP is committed to Build Competent Finance & Accounting Professionals for a Changing Business World.</p>
-            <div class="social-icons mt-4">
+            {{-- <div class="social-icons mt-4">
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+            </div> --}}
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
             <h5>About</h5>
