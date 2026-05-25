@@ -272,7 +272,7 @@
     <div class="emt-body">
       <div class="emt-subject-bar">
         <span class="emt-subject-label">Subject</span>
-        <span class="emt-subject-value">New Inquiry — {{ $data['inquiryType'] . '||' . $data['first_name'] }}</span>
+        <span class="emt-subject-value">New Inquiry — {{ $data['inquiryType'] . ' || ' . $data['first_name'] }}</span>
       </div>
 
       <p class="emt-greeting">Dear AIFAP Team,</p>

@@ -20,7 +20,7 @@ class SendMailController extends Controller
             "message" => ['required']
         ]);
 
-        Mail::to('demo@gmail.com')->send(new ContactFormMail($attributes));
+        Mail::to('info@aifap.us')->send(new ContactFormMail($attributes));
 
         return back();
 
@@ -38,7 +38,7 @@ class SendMailController extends Controller
             "experience" => ['required']
         ]);
 
-        Mail::to('demo@gmail.com')->send(new MemberApplicationMail($attributes));
+        Mail::to('info@aifap.us')->send(new MemberApplicationMail($attributes));
 
         return back();
 

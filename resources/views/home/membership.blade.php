@@ -218,7 +218,7 @@
         </div>
         <div class="modal-body p-4">
           <p class="text-muted small mb-4">Please provide your details below. Our team will contact you later to submit your academic certificates and experience documents.</p>
-          <form methpod="POST" action="/member-apply-mail">
+          <form method="POST" action="/member-apply-mail">
              @csrf
               @if ($errors->any())
                 <ul>
