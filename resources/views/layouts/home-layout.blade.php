@@ -19,6 +19,22 @@
 </head>
 <body>
 
+  
+
+  @if (session('success'))
+    <div class="alert alert-success gap-5 d-flex flex-wrap justify-content-between position-fixed" role="alert" style="bottom: 15px; right: 15px; z-index: 999;">
+      {{ session('success') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  @endif
+
+  @if (session('failed'))
+    <div class="alert gap-5 flex-wrap alert-danger d-flex justify-content-between position-fixed" role="alert" style="bottom: 15px; right: 15px; z-index: 999;">
+      {{ session('failed') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  @endif
+
     <x-home.nav />
 
     @yield('content')
@@ -30,6 +46,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="{{ asset('/asset/js/scripts.js') }}"></script>
+    <script src="{{ asset('/assets/js/scripts.js') }}"></script>
 </body>
 </html>

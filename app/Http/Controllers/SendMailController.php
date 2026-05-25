@@ -20,9 +20,13 @@ class SendMailController extends Controller
             "message" => ['required']
         ]);
 
-        Mail::to('info@aifap.us')->send(new ContactFormMail($attributes));
+        try{
+            Mail::to('info@aifap.us')->send(new ContactFormMail($attributes));
+            return back()->with('success', 'Email Sent Successfully!!!');
+        }catch(\Exception $e){
+            return back()->with('failed', 'Email send failed!!!');
+        }
 
-        return back();
 
     }
 
@@ -38,9 +42,13 @@ class SendMailController extends Controller
             "experience" => ['required']
         ]);
 
-        Mail::to('info@aifap.us')->send(new MemberApplicationMail($attributes));
+        try{
 
-        return back();
+            Mail::to('info@aifap.us')->send(new MemberApplicationMail($attributes));
+            return back()->with('success', 'Email sent successfully!!!');
+        }catch(\Exception $e){
+            return back()->with('failed', 'Email sent failed!!!');
+        }
 
     }
 

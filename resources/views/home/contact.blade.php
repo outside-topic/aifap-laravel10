@@ -59,25 +59,25 @@
             <form method="POST" action="/contact-mail">
               @csrf
               @if ($errors->any())
-                <ul>
-                  @foreach ($errors as $error)
-                    <li>{{ $error->message }}</li>
+                <ul class="text-danger">
+                  @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
                   @endforeach
                 </ul>
               @endif
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <label for="firstName" class="form-label text-muted small fw-bold">First Name <span class="text-danger">*</span> </label>
-                  <input type="text" name="first_name" class="form-control p-3 bg-light" id="firstName" placeholder="John" required>
+                  <input type="text" name="first_name" value="{{ old('first_name') }}" class="form-control p-3 bg-light" id="firstName" placeholder="John" required>
                 </div>
                 <div class="col-md-6 mb-3">
                   <label for="lastName" class="form-label text-muted small fw-bold">Last Name</label>
-                  <input type="text" name="last_name" class="form-control p-3 bg-light" id="lastName" placeholder="Doe" required>
+                  <input type="text" name="last_name" value="{{ old('last_name') }}" class="form-control p-3 bg-light" id="lastName" placeholder="Doe">
                 </div>
               </div>
               <div class="mb-3">
                 <label for="emailAddress" class="form-label text-muted small fw-bold">Email Address<span class="text-danger">*</span></label>
-                <input type="email" name="email" class="form-control p-3 bg-light" id="emailAddress" placeholder="john.doe@example.com" required>
+                <input type="email" name="email" value="{{ old('email') }}" class="form-control p-3 bg-light" id="emailAddress" placeholder="john.doe@example.com" required>
               </div>
               <div class="mb-3">
                 <label for="inquiryType" class="form-label text-muted small fw-bold">Inquiry Type<span class="text-danger">*</span></label>
@@ -92,7 +92,7 @@
               </div>
               <div class="mb-4">
                 <label for="messageBody" class="form-label text-muted small fw-bold">Message<span class="text-danger">*</span></label>
-                <textarea name="message" class="form-control p-3 bg-light" id="messageBody" rows="5" placeholder="How can we help you?" required></textarea>
+                <textarea name="message" class="form-control p-3 bg-light" id="messageBody" rows="5" placeholder="How can we help you?" required>{{ old('message') }}</textarea>
               </div>
               <button type="submit" class="btn btn-primary-custom w-100 py-3">Submit Inquiry</button>
             </form>

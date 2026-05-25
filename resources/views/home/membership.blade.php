@@ -221,30 +221,30 @@
           <form method="POST" action="/member-apply-mail">
              @csrf
               @if ($errors->any())
-                <ul>
-                  @foreach ($errors as $error)
-                    <li>{{ $error->message }}</li>
+                <ul class="text-danger">
+                  @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
                   @endforeach
                 </ul>
               @endif
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="appFirstName" class="form-label small fw-bold text-muted">First Name<span class="text-danger">*</span></label>
-                <input name="first_name" type="text" class="form-control p-2 bg-light" id="appFirstName" required>
+                <input name="first_name" value="{{ old('first_name') }}" type="text" class="form-control p-2 bg-light" id="appFirstName" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="appLastName" class="form-label small fw-bold text-muted">Last Name<span class="text-danger">*</span></label>
-                <input name="last_name" type="text" class="form-control p-2 bg-light" id="appLastName" required>
+                <input name="last_name" value="{{ old('last_name') }}" type="text" class="form-control p-2 bg-light" id="appLastName" required>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="appEmail" class="form-label small fw-bold text-muted">Email Address<span class="text-danger">*</span></label>
-                <input name="email" type="email" class="form-control p-2 bg-light" id="appEmail" required>
+                <input name="email" type="email" value="{{ old('email') }}" class="form-control p-2 bg-light" id="appEmail" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="appPhone" class="form-label small fw-bold text-muted">Phone Number<span class="text-danger">*</span></label>
-                <input name="contact" type="tel" class="form-control p-2 bg-light" id="appPhone" required>
+                <input name="contact" value="{{ old('contact') }}" type="tel" class="form-control p-2 bg-light" id="appPhone" required>
               </div>
             </div>
             <div class="mb-3">
@@ -261,11 +261,11 @@
             <div class="row">
               <div class="col-md-8 mb-3">
                 <label for="appEducation" class="form-label small fw-bold text-muted">Highest Qualification<span class="text-danger">*</span></label>
-                <input  name="highest_qualification" type="text" class="form-control p-2 bg-light" id="appEducation" placeholder="e.g. BSc in Finance" required>
+                <input  name="highest_qualification" value="{{ old('highest_qualification') }}" type="text" class="form-control p-2 bg-light" id="appEducation" placeholder="e.g. BSc in Finance" required>
               </div>
               <div class="col-md-4 mb-4">
                 <label for="appExperience" class="form-label small fw-bold text-muted">Years of Exp.<span class="text-danger">*</span></label>
-                <input name="experience" type="number" class="form-control p-2 bg-light" id="appExperience" min="0" required>
+                <input name="experience" value="{{ old('experience') }}" type="number" class="form-control p-2 bg-light" id="appExperience" min="0" required>
               </div>
             </div>
             <button type="submit" class="btn btn-primary-custom w-100 py-2 mt-2">Submit Application</button>
@@ -275,5 +275,14 @@
     </div>
   </div>
 
+
+  @if (session('failed') || $errors->any())
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var myModal = new bootstrap.Modal(document.getElementById('applicationModal'));
+            myModal.show();
+        });
+    </script>
+  @endif
 
 @endsection

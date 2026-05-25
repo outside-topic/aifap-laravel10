@@ -81,3 +81,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+
+const allAlert = document.querySelectorAll('alert');
+if(allAlert){
+  
+  if(allAlert.length > 0){
+    
+    setTimeout(() => {
+      allAlert.forEach(alert => alert.style.display = "none");
+    }, 5000)
+
+  }
+
+}
