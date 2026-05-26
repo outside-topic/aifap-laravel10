@@ -35,6 +35,10 @@ body {
   background-color: var(--primary-blue);
 }
 
+.color-primary-red{
+  color: var(--primary-red);
+}
+
 h1,
 h2,
 h3,

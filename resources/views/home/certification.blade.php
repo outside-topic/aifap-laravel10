@@ -22,6 +22,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Finance Certifications</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Programs focused on financial management concepts, business finance practices, budgeting, and decision-making.</p>
             <ul class="benefit-list small">
               <li>Financial management principles</li>
@@ -36,6 +40,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Accounting Certifications</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Professional learning covering accounting principles, operations, and practical applications.</p>
             <ul class="benefit-list small">
               <li>Accounting fundamentals</li>
@@ -50,6 +58,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Audit & Compliance</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Support understanding of governance, internal controls, audit concepts, and responsible practices.</p>
             <ul class="benefit-list small">
               <li>Internal controls</li>
@@ -63,6 +75,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Taxation Programs</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Focused on taxation principles, compliance awareness, and practical tax-related understanding.</p>
             <ul class="benefit-list small">
               <li>Tax compliance awareness</li>
@@ -76,6 +92,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Banking & Financial Services</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Knowledge development within banking operations and customer-focused practices.</p>
             <ul class="benefit-list small">
               <li>Banking operations</li>
@@ -89,6 +109,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Financial Analysis</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Focused on analytical thinking, financial interpretation, and business analysis.</p>
             <ul class="benefit-list small">
               <li>Financial statement analysis</li>
@@ -102,6 +126,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Budgeting & Cost Management</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Learning programs covering budgeting techniques, cost analysis, and resource management.</p>
             <ul class="benefit-list small">
               <li>Budget preparation</li>
@@ -115,6 +143,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Risk Management</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Support understanding of business risk, financial risk awareness, and mitigation.</p>
             <ul class="benefit-list small">
               <li>Enterprise risk</li>
@@ -129,6 +161,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Corporate Finance</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Support understanding of corporate financial practices and business strategy alignment.</p>
             <ul class="benefit-list small">
               <li>Corporate finance principles</li>
@@ -142,6 +178,10 @@
         <div class="col-lg-4 col-md-6 mb-4 gsap-stagger-item">
           <div class="glass-card bg-light-gray">
             <h3 class="text-blue">Investment & Wealth Management</h3>
+            <div class="d-flex gap-3">
+              <h5 class="color-primary-red">Fee:</h5>
+              <h5 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 990</h5>
+            </div>
             <p class="small text-muted mb-3">Professional learning focused on investment awareness, wealth management concepts, financial planning approaches, and client-oriented financial understanding.</p>
             <ul class="benefit-list small">
               <li>Investment fundamentals</li>
@@ -163,6 +203,7 @@
       <div class="row align-items-center">
         <div class="col-lg-5 mb-5 mb-lg-0 gsap-fade-up">
           <h2 class="section-title">Specialized Programs</h2>
+
           <p class="mt-4 text-muted">AIFAP specialized learning initiatives are designed to support executives, professionals, learners, and organizations seeking focused development opportunities in modern finance and accounting environments.</p>
           <div class="mt-4">
             <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Executive Learning" class="img-fluid rounded-xl shadow">
@@ -172,6 +213,7 @@
           <div class="row gsap-stagger-container">
             <div class="col-md-6 mb-4 gsap-stagger-item">
               <h5 class="text-blue fw-bold border-bottom pb-2">Executive Programs</h5>
+              
               <p class="small text-muted">For managers, senior professionals, business leaders, and decision-makers seeking strategic and practical business knowledge.</p>
               <ul class="d-flex flex-column flex-wrap gap-1 ps-0" style="list-style-type: none; font-size: 12px; font-weight: bold;">
                 <li>Executive-level discussions</li>
@@ -182,6 +224,7 @@
             </div>
             <div class="col-md-6 mb-4 gsap-stagger-item">
               <h5 class="text-blue fw-bold border-bottom pb-2">CPD Programs</h5>
+              
               <p class="small text-muted">To encourage ongoing learning, professional engagement, and competency enhancement.</p>
               <ul class="d-flex flex-column flex-wrap gap-1 ps-0" style="list-style-type: none; font-size: 12px; font-weight: bold;">
                 <li>Short learning sessions</li>
@@ -192,6 +235,7 @@
             </div>
             <div class="col-md-6 mb-4 gsap-stagger-item">
               <h5 class="text-blue fw-bold border-bottom pb-2">Short Courses</h5>
+              
               <p class="small text-muted">Provide practical understanding of specific finance, accounting, or business-related topics within shorter learning durations.</p>
               <ul class="d-flex flex-column flex-wrap gap-1 ps-0" style="list-style-type: none; font-size: 12px; font-weight: bold;">
                 <li>Flexible learning</li>
@@ -212,6 +256,7 @@
             </div>
             <div class="col-md-12 mb-4 gsap-stagger-item">
               <h5 class="text-blue fw-bold border-bottom pb-2">Masterclasses & Workshops</h5>
+              
               <p class="small text-muted">Interactive learning sessions designed to encourage practical discussion, professional interaction, and applied understanding of industry topics.</p>
               <ul class="d-flex flex-wrap gap-1 ps-0 flex-column" style="list-style-type: none; font-size: 12px; font-weight: bold;">
                 <li>Interactive facilitation</li>
@@ -235,41 +280,73 @@
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400; flex: 1;">
           <h6>Financial Reporting</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Programs focused on understanding financial reports, reporting structures, and practical reporting practices within business environments.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>IFRS & IAS</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Learning initiatives designed to support awareness and understanding of international financial reporting concepts and accounting standards.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Financial Planning & Analysis</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Programs supporting analytical capability, financial interpretation, planning concepts, and business performance understanding.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Internal Audit</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Learning opportunities focused on audit processes, internal controls, governance awareness, and compliance-oriented practices.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 w-full pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Management Accounting</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Programs covering budgeting, cost management, business performance analysis, and management-focused financial practices.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Treasury & Cash Management</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Professional learning focused on liquidity awareness, treasury operations concepts, cash flow understanding, and financial resource management.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Financial Leadership</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Programs supporting leadership capability within finance and business environments, including decision-making, strategic thinking, and professional communication.</p>
         </div>
 
         <div class="w-100 text-dark bg-primary-subtle px-4 py-3 pill fs-6 border border-primary-subtle" style="font-weight: 400;">
           <h6>Data Analytics for Finance</h6>
+          <div class="d-flex gap-3 justify-content-center mx-auto">
+              <h6 class="color-primary-red">Fee:</h6>
+              <h6 class="color-primary-red"><i class="fa-solid fa-dollar-sign"></i> 575</h6>
+          </div>
           <p>Learning initiatives designed to support practical understanding of data analysis, reporting tools, financial analytics concepts, and business insights.</p>
         </div>
 
