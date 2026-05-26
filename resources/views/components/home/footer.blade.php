@@ -44,7 +44,6 @@
         </div>
         <div class="footer-bottom">
             <p class="mb-0">&copy; {{ now()->year }} American Institute of Finance and Accounting Professional (AIFAP). All rights reserved.</p>
-            <p class="mt-2 text-muted" style="font-size: 0.8rem;">AIFAP operates as a professional development institute. Participation does not constitute government licensing unless specifically stated.</p>
         </div>
         </div>
     </footer>
