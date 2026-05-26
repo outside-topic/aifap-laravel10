@@ -26,10 +26,12 @@
             <h5>Verification & Policies</h5>
             <ul class="footer-links">
                 <li><a href="/verification">Verification</a></li>
-                <li><a href="/policies">Privacy Policy</a></li>
-                <li><a href="/policies">Terms & Conditions</a></li>
-                <li><a href="/policies">Refund Policy</a></li>
-                <li><a href="/policies">Code of Ethics</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/terms-and-condition">Terms & Conditions</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
+                <li><a href="/code-of-ethics">Code of Ethics</a></li>
+                <li><a href="/complaint-and-appeals">Complaint and Appeals</a></li>
+                <li><a href="/faq">FAQ</a></li>
             </ul>
             </div>
             <div class="col-lg-3 col-md-4">

@@ -23,8 +23,13 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/corporate-trainning', 'corporateTrainning');
     Route::get('/partnership', 'partnership');
     Route::get('/contact', 'contact');
-    Route::get('/verification', 'verification');
-    Route::get('/policies', 'policies');
+    Route::get('/privacy-policy', 'privacyPolicy');
+    Route::get('/complaint-and-appeals', 'complaintAppeals');
+    Route::get('/code-of-ethics', 'codeEthics');
+    Route::get('/refund-policy', 'refundPolicy');
+    Route::get('/faq', 'faq');
+    Route::get('/terms-and-condition', 'termsCondition');
+
 });
 
 Route::controller(SendMailController::class)->group(function(){

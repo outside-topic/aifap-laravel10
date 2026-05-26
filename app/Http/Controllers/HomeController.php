@@ -40,8 +40,32 @@ class HomeController extends Controller
         return view('home.verification');
     }
 
-    public function policies(){
-        return view('home.policies');
+    // public function policies(){
+    //     return view('home.policies');
+    // }
+
+    public function privacyPolicy(){
+        return view('home.privacy-policy');
+    }
+
+    public function complaintAppeals(){
+        return view('home.complaints-appeals');
+    }
+
+    public function faq(){
+        return view('home.faq');
+    }
+
+    public function codeEthics(){
+        return view('home.code-ethics');
+    }
+
+    public function refundPolicy(){
+        return view('home.refund-policy');
+    }
+
+    public function termsCondition(){
+        return view('home.terms-condition');
     }
 
 }
